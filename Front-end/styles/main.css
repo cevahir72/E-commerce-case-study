@@ -1,0 +1,94 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #929292;
+}
+
+#nav-logo{
+    flex: 1;
+    margin-left: 2rem;
+}
+
+#nav-search{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#nav-profile{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    margin-right: 3rem;
+}
+
+#navbar-input{
+    width: 20vw;
+    border: 1px solid #ddd;
+    height: 2rem;
+    border-radius: 10px;
+    padding-left: 1rem;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#navbar-buton{
+    width: 5rem;
+    height: 2rem ;
+    border-radius: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+#nav-profile-chart {
+    margin-right: 2rem;
+}
+
+.products{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    background: #1D1F21;
+    padding-top: 2rem;
+    
+}
+
+#cardContainer{
+    width: 80%;
+}
+
+.card{
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #444648;
+    color: #eee;
+    border-radius: 10px;
+
+}
+
+button{
+    background: #FF6600;
+    border-radius: 10px;
+    height: 2.5rem;
+    border: 1px solid #FF6600;
+    color: #eee;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+}
